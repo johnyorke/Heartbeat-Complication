@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFEB0D1A1B652E750079B213 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEB0D191B652E750079B213 /* AppDelegate.swift */; };
+		DFEB0D1C1B652E750079B213 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEB0D1B1B652E750079B213 /* ViewController.swift */; };
+		DFEB0D1F1B652E750079B213 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFEB0D1D1B652E750079B213 /* Main.storyboard */; };
+		DFEB0D211B652E750079B213 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFEB0D201B652E750079B213 /* Assets.xcassets */; };
+		DFEB0D241B652E750079B213 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFEB0D221B652E750079B213 /* LaunchScreen.storyboard */; };
+		DFEB0D291B652E750079B213 /* HeartbeatComplication WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DFEB0D281B652E750079B213 /* HeartbeatComplication WatchKit App.app */; };
+		DFEB0D2F1B652E750079B213 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFEB0D2D1B652E750079B213 /* Interface.storyboard */; };
+		DFEB0D311B652E750079B213 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFEB0D301B652E750079B213 /* Assets.xcassets */; };
+		DFEB0D381B652E750079B213 /* HeartbeatComplication WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DFEB0D371B652E750079B213 /* HeartbeatComplication WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DFEB0D3D1B652E750079B213 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEB0D3C1B652E750079B213 /* InterfaceController.swift */; };
+		DFEB0D3F1B652E750079B213 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEB0D3E1B652E750079B213 /* ExtensionDelegate.swift */; };
+		DFEB0D411B652E750079B213 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEB0D401B652E750079B213 /* ComplicationController.swift */; };
+		DFEB0D431B652E750079B213 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFEB0D421B652E750079B213 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFEB0D2A1B652E750079B213 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFEB0D0E1B652E750079B213 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFEB0D271B652E750079B213;
+			remoteInfo = "HeartbeatComplication WatchKit App";
+		};
+		DFEB0D391B652E750079B213 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFEB0D0E1B652E750079B213 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFEB0D361B652E750079B213;
+			remoteInfo = "HeartbeatComplication WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DFEB0D4A1B652E750079B213 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DFEB0D381B652E750079B213 /* HeartbeatComplication WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFEB0D4E1B652E750079B213 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				DFEB0D291B652E750079B213 /* HeartbeatComplication WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DFEB0D161B652E750079B213 /* HeartbeatComplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartbeatComplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFEB0D191B652E750079B213 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DFEB0D1B1B652E750079B213 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DFEB0D1E1B652E750079B213 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFEB0D201B652E750079B213 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFEB0D231B652E750079B213 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFEB0D251B652E750079B213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFEB0D281B652E750079B213 /* HeartbeatComplication WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HeartbeatComplication WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFEB0D2E1B652E750079B213 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		DFEB0D301B652E750079B213 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFEB0D321B652E750079B213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFEB0D371B652E750079B213 /* HeartbeatComplication WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HeartbeatComplication WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFEB0D3C1B652E750079B213 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		DFEB0D3E1B652E750079B213 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		DFEB0D401B652E750079B213 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		DFEB0D421B652E750079B213 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFEB0D441B652E750079B213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFEB0D131B652E750079B213 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFEB0D341B652E750079B213 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFEB0D0D1B652E750079B213 = {
+			isa = PBXGroup;
+			children = (
+				DFEB0D181B652E750079B213 /* HeartbeatComplication */,
+				DFEB0D2C1B652E750079B213 /* HeartbeatComplication WatchKit App */,
+				DFEB0D3B1B652E750079B213 /* HeartbeatComplication WatchKit Extension */,
+				DFEB0D171B652E750079B213 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFEB0D171B652E750079B213 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFEB0D161B652E750079B213 /* HeartbeatComplication.app */,
+				DFEB0D281B652E750079B213 /* HeartbeatComplication WatchKit App.app */,
+				DFEB0D371B652E750079B213 /* HeartbeatComplication WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFEB0D181B652E750079B213 /* HeartbeatComplication */ = {
+			isa = PBXGroup;
+			children = (
+				DFEB0D191B652E750079B213 /* AppDelegate.swift */,
+				DFEB0D1B1B652E750079B213 /* ViewController.swift */,
+				DFEB0D1D1B652E750079B213 /* Main.storyboard */,
+				DFEB0D201B652E750079B213 /* Assets.xcassets */,
+				DFEB0D221B652E750079B213 /* LaunchScreen.storyboard */,
+				DFEB0D251B652E750079B213 /* Info.plist */,
+			);
+			path = HeartbeatComplication;
+			sourceTree = "<group>";
+		};
+		DFEB0D2C1B652E750079B213 /* HeartbeatComplication WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				DFEB0D2D1B652E750079B213 /* Interface.storyboard */,
+				DFEB0D301B652E750079B213 /* Assets.xcassets */,
+				DFEB0D321B652E750079B213 /* Info.plist */,
+			);
+			path = "HeartbeatComplication WatchKit App";
+			sourceTree = "<group>";
+		};
+		DFEB0D3B1B652E750079B213 /* HeartbeatComplication WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DFEB0D3C1B652E750079B213 /* InterfaceController.swift */,
+				DFEB0D3E1B652E750079B213 /* ExtensionDelegate.swift */,
+				DFEB0D401B652E750079B213 /* ComplicationController.swift */,
+				DFEB0D421B652E750079B213 /* Assets.xcassets */,
+				DFEB0D441B652E750079B213 /* Info.plist */,
+			);
+			path = "HeartbeatComplication WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFEB0D151B652E750079B213 /* HeartbeatComplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFEB0D4F1B652E750079B213 /* Build configuration list for PBXNativeTarget "HeartbeatComplication" */;
+			buildPhases = (
+				DFEB0D121B652E750079B213 /* Sources */,
+				DFEB0D131B652E750079B213 /* Frameworks */,
+				DFEB0D141B652E750079B213 /* Resources */,
+				DFEB0D4E1B652E750079B213 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFEB0D2B1B652E750079B213 /* PBXTargetDependency */,
+			);
+			name = HeartbeatComplication;
+			productName = HeartbeatComplication;
+			productReference = DFEB0D161B652E750079B213 /* HeartbeatComplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFEB0D271B652E750079B213 /* HeartbeatComplication WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFEB0D4B1B652E750079B213 /* Build configuration list for PBXNativeTarget "HeartbeatComplication WatchKit App" */;
+			buildPhases = (
+				DFEB0D261B652E750079B213 /* Resources */,
+				DFEB0D4A1B652E750079B213 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFEB0D3A1B652E750079B213 /* PBXTargetDependency */,
+			);
+			name = "HeartbeatComplication WatchKit App";
+			productName = "HeartbeatComplication WatchKit App";
+			productReference = DFEB0D281B652E750079B213 /* HeartbeatComplication WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		DFEB0D361B652E750079B213 /* HeartbeatComplication WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFEB0D471B652E750079B213 /* Build configuration list for PBXNativeTarget "HeartbeatComplication WatchKit Extension" */;
+			buildPhases = (
+				DFEB0D331B652E750079B213 /* Sources */,
+				DFEB0D341B652E750079B213 /* Frameworks */,
+				DFEB0D351B652E750079B213 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HeartbeatComplication WatchKit Extension";
+			productName = "HeartbeatComplication WatchKit Extension";
+			productReference = DFEB0D371B652E750079B213 /* HeartbeatComplication WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFEB0D0E1B652E750079B213 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "John Yorke";
+				TargetAttributes = {
+					DFEB0D151B652E750079B213 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					DFEB0D271B652E750079B213 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					DFEB0D361B652E750079B213 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = DFEB0D111B652E750079B213 /* Build configuration list for PBXProject "HeartbeatComplication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFEB0D0D1B652E750079B213;
+			productRefGroup = DFEB0D171B652E750079B213 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFEB0D151B652E750079B213 /* HeartbeatComplication */,
+				DFEB0D271B652E750079B213 /* HeartbeatComplication WatchKit App */,
+				DFEB0D361B652E750079B213 /* HeartbeatComplication WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFEB0D141B652E750079B213 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFEB0D241B652E750079B213 /* LaunchScreen.storyboard in Resources */,
+				DFEB0D211B652E750079B213 /* Assets.xcassets in Resources */,
+				DFEB0D1F1B652E750079B213 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFEB0D261B652E750079B213 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFEB0D311B652E750079B213 /* Assets.xcassets in Resources */,
+				DFEB0D2F1B652E750079B213 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFEB0D351B652E750079B213 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFEB0D431B652E750079B213 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFEB0D121B652E750079B213 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFEB0D1C1B652E750079B213 /* ViewController.swift in Sources */,
+				DFEB0D1A1B652E750079B213 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFEB0D331B652E750079B213 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFEB0D3F1B652E750079B213 /* ExtensionDelegate.swift in Sources */,
+				DFEB0D3D1B652E750079B213 /* InterfaceController.swift in Sources */,
+				DFEB0D411B652E750079B213 /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFEB0D2B1B652E750079B213 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFEB0D271B652E750079B213 /* HeartbeatComplication WatchKit App */;
+			targetProxy = DFEB0D2A1B652E750079B213 /* PBXContainerItemProxy */;
+		};
+		DFEB0D3A1B652E750079B213 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFEB0D361B652E750079B213 /* HeartbeatComplication WatchKit Extension */;
+			targetProxy = DFEB0D391B652E750079B213 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFEB0D1D1B652E750079B213 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFEB0D1E1B652E750079B213 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFEB0D221B652E750079B213 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFEB0D231B652E750079B213 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DFEB0D2D1B652E750079B213 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFEB0D2E1B652E750079B213 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFEB0D451B652E750079B213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DFEB0D461B652E750079B213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFEB0D481B652E750079B213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "HeartbeatComplication WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnyorke.HeartbeatComplication.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		DFEB0D491B652E750079B213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "HeartbeatComplication WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnyorke.HeartbeatComplication.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		DFEB0D4C1B652E750079B213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = HeartbeatComplication_WatchKit_Extension;
+				INFOPLIST_FILE = "HeartbeatComplication WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnyorke.HeartbeatComplication.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		DFEB0D4D1B652E750079B213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = HeartbeatComplication_WatchKit_Extension;
+				INFOPLIST_FILE = "HeartbeatComplication WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnyorke.HeartbeatComplication.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		DFEB0D501B652E750079B213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HeartbeatComplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnyorke.HeartbeatComplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DFEB0D511B652E750079B213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HeartbeatComplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnyorke.HeartbeatComplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFEB0D111B652E750079B213 /* Build configuration list for PBXProject "HeartbeatComplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFEB0D451B652E750079B213 /* Debug */,
+				DFEB0D461B652E750079B213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFEB0D471B652E750079B213 /* Build configuration list for PBXNativeTarget "HeartbeatComplication WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFEB0D481B652E750079B213 /* Debug */,
+				DFEB0D491B652E750079B213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DFEB0D4B1B652E750079B213 /* Build configuration list for PBXNativeTarget "HeartbeatComplication WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFEB0D4C1B652E750079B213 /* Debug */,
+				DFEB0D4D1B652E750079B213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DFEB0D4F1B652E750079B213 /* Build configuration list for PBXNativeTarget "HeartbeatComplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFEB0D501B652E750079B213 /* Debug */,
+				DFEB0D511B652E750079B213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFEB0D0E1B652E750079B213 /* Project object */;
+}
